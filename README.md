@@ -1,7 +1,7 @@
 # TAKE HOME TASK
 
 Imagine we have an image detection service, that takes an image and detects
-if it contains a car.
+if it contains a car.  
 The response format is like so:
 ```json
 {
