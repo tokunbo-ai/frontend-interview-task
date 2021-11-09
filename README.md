@@ -22,3 +22,13 @@ Create a React component that gets an image from a user, and sends a REST API re
 to the image detection service and then displays the result for the user
 to see.
 
+
+## Nice to have
+- tests. But note that this is not compulsory
+
+## Submission guideline
+- Create a github repository with your solution. The repository should include a README.
+Feel free to explain any decisions you took in the README.
+
+- Send the link to the repository to hr@tokunbo.org
+
