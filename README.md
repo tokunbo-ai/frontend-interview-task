@@ -24,7 +24,7 @@ to see.
 
 
 ## Nice to have
-- tests. But note that this is not compulsory
+- tests
 
 ## Submission guideline
 - Create a github repository with your solution. The repository should include a README.
