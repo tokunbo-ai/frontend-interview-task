@@ -1,8 +1,7 @@
 # TAKE HOME TASK
 
-Imagine we have an image detection service, that takes an image and detects
-if it contains a car.  
-The response format is like so:
+Assume that we have an image detection service API, that takes an image of a car and returns the information about the car.  
+An example response from the API is shown below:
 ```json
 {
     "car": {
@@ -17,10 +16,26 @@ The response format is like so:
     "bbox": {"br_x": 0.8987, "br_y": 0.87, "tl_x": 0.1164, "tl_y": 0.1555},
 }
 ```
+From the response, we can see that the API returns the manufacturer of the car (Audi in the example), the model, color, etc.
 
-Create a React component that gets an image from a user, and sends a REST API request
-to the image detection service and then displays the result for the user
+## YOUR TASK
+Create a React component that gets an image of a car from a user, and sends a REST API request
+to the image detection service API and then displays the result for the user
 to see.
+
+## TASK CLARIFICATION
+1. We are only interested in the frontend part of this service.
+2. Essentially, your component should do the following:
+ - allow the user to upload an image
+ - display the result of the detection service to the user.
+3. For the result shown to the user, we are interested in the manufacturer, model and color.
+So an example display to the user can be:
+**Your car is a black Audi A4.** Feel free to format it the way you want.
+
+## Note
+For simplicity, we want you to use the example response above, no matter what image the user uploads.
+That is, **there is no need to make an API call**. Just hard-code the response above and use that
+for any image that the user uploads. 
 
 
 ## Nice to have
